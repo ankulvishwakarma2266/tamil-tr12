@@ -1,450 +1,245 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>King Of Nifty</title>
+<div class="TAMIL TRADER-page">
+  <div class="TAMIL TRADER-card">
+
+    <div class="munaf-profile">
+      <img src="https://i.ibb.co/Wv1n0LX7/Tamil-Trade.jpg" alt="Trade With Munaaf">
+    </div>
+
+    <h1>TAMIL TRADER</h1>
+
+    <div class="TAMIL TRADEE-features">
+      <div class="TAMIL TRADER-feature">
+        <span>🌐</span>
+        <p>Learning &amp; Educational Sessions</p>
+      </div>
+
+      <div class="TAMIL TRADER-feature">
+        <span>📊</span>
+        <p>Market Concepts &amp; Awareness</p>
+      </div>
+
+      <div class="TAMIL TRADER-feature">
+        <span>💎</span>
+        <p>Chart Reading Concepts</p>
+      </div>
+
+      <div class="TAMIL TRADER-feature">
+        <span>💻</span>
+        <p>Educational Case Discussions</p>
+      </div>
+    </div>
+
+    <p class="TAMIL TRADER-description">
+      Join our learning community and grow your knowledge
+    </p>
+
+    <a class="TAMIL TRADER-button"
+       href="https://t.me/+gVdWzmpiBQ1iNTI1"
+       target="_blank">
+      JOIN TELEGRAM
+    </a>
+
+    <p class="TAMIL TRADER-hindi">
+      नियत अच्छी और मेहनत सच्ची हो, तो कामयाबी जरूर मिलती है।
+    </p>
+
+    <div class="TAMIL TRADER-agency">
+      This Channel Advertise By
+      <strong>ANKUL AD AGENCY</strong>
+    </div>
+
+    <div class="munaf-footer">
+      <span>Terms | Privacy | Disclaimer</span>
+      <p>This site is not part of Facebook™ or endorsed by Facebook™.</p>
+    </div>
+
+  </div>
+</div>
 
 <style>
-* {
+.munaf-page,
+.munaf-page * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f4f7f4;
-  color: #536c62;
-}
-
-.page {
+.munaf-page {
+  background: #000;
+  color: #d0d0d5;
+  padding: 45px 15px;
+  font-family: Arial, sans-serif;
   width: 100%;
-  padding: 45px 16px 65px;
-  background: #f4f7f4;
 }
 
-.topbar {
+.munaf-card {
   max-width: 650px;
-  margin: 0 auto 34px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.live {
-  font-size: 15px;
-  color: #008a62;
-  background: #eef7f2;
-  border: 1px solid #e0eee6;
-  padding: 12px 17px;
-  border-radius: 30px;
-}
-
-.dot {
-  color: #00a878;
-  margin-right: 8px;
-}
-
-.card {
-  width: 100%;
-  max-width: 635px;
-  margin: auto;
-  padding: 39px 31px;
-  background: #ffffff;
-  border: 1px solid #e2eae5;
-  border-radius: 43px;
-  box-shadow: 0 24px 45px rgba(37, 70, 53, 0.08);
+  margin: 0 auto;
+  padding: 28px 28px 35px;
+  background: #001014;
+  border: 2px solid #00d9ff;
+  border-radius: 60px;
+  box-shadow: 0 0 18px rgba(0,217,255,.12);
   text-align: center;
 }
 
-.profile {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  text-align: left;
-  margin-bottom: 25px;
-}
-
-.avatar {
-  width: 106px;
-  height: 106px;
-  flex-shrink: 0;
-  border-radius: 26px;
-  background: #eaf2ed;
-  position: relative;
+.munaf-profile {
+  width: 205px;
+  height: 205px;
+  margin: 0 auto 38px;
+  border: 5px solid #00d9ff;
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: 0 0 20px #00cfff;
   overflow: hidden;
 }
 
-.avatar img {
+.munaf-profile img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.verified {
-  position: absolute;
-  bottom: 3px;
-  right: 0;
-  background: #008d65;
-  color: white;
-  width: 29px;
-  height: 29px;
   border-radius: 50%;
-  border: 3px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
 }
 
-.profile h1 {
-  font-size: 27px;
-  line-height: 1.28;
-  color: #10251d;
-  margin: 0 0 8px;
-  font-weight: 800;
-}
-
-.subtitle {
-  font-size: 19px;
-  color: #91a59b;
-}
-
-.description {
-  font-size: 23px;
-  line-height: 1.65;
-  text-align: left;
-  margin: 25px 0 28px;
-  color: #5d7068;
-}
-
-.features {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-bottom: 34px;
-}
-
-.feature {
-  min-height: 83px;
-  background: #eef5f0;
-  border: 1px solid #e0eae3;
-  border-radius: 21px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 5px;
-}
-
-.feature strong {
-  color: #00835e;
-  font-size: 22px;
-  margin-bottom: 7px;
-}
-
-.feature span {
-  color: #8da297;
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: .4px;
-}
-
-.join-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-  min-height: 89px;
-  padding: 20px 10px;
-  border-radius: 27px;
-  background: linear-gradient(110deg, #00835e, #00ad79);
+.munaf-card h1 {
   color: #fff;
-  font-size: 25px;
+  font-size: 34px;
+  line-height: 1.3;
   font-weight: 800;
-  text-decoration: none;
-  box-shadow: 0 13px 22px rgba(0, 146, 101, .17);
-  transition: .2s;
+  margin: 0 0 36px;
 }
 
-.join-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 16px 28px rgba(0, 146, 101, .25);
+.munaf-features {
+  text-align: left;
+  padding: 0 28px;
 }
 
-.telegram-icon {
-  width: 28px;
-  height: 28px;
-  fill: white;
+.munaf-feature {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 19px 0;
+  border-bottom: 1px solid #14272b;
+}
+
+.munaf-feature:last-child {
+  border-bottom: none;
+}
+
+.munaf-feature span {
+  font-size: 29px;
+  width: 32px;
   flex-shrink: 0;
 }
 
-.arrow {
-  font-size: 29px;
+.munaf-feature p {
+  margin: 0;
+  color: #c9c9d0;
+  font-size: 23px;
+  line-height: 1.5;
 }
 
-.direct {
-  font-size: 17px;
-  color: #8ba397;
-  margin: 18px 0 36px;
+.munaf-description {
+  color: #d2d2d8;
+  font-size: 21px;
+  line-height: 1.6;
+  margin: 35px 0 22px;
 }
 
-.benefits {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-bottom: 36px;
+.munaf-button {
+  display: block;
+  width: 100%;
+  padding: 27px 10px;
+  border-radius: 60px;
+  background: linear-gradient(
+    100deg, #08d4f4 0%, #008dff 50%, #a12bff 100%
+  );
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 27px;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,195,255,.15);
 }
 
-.benefit {
-  min-height: 109px;
-  background: #eef5f0;
-  border: 1px solid #e0eae3;
-  border-radius: 21px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 13px;
-  padding: 12px 4px;
-  font-size: 15px;
-  font-weight: bold;
+.munaf-hindi {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #b8b8be;
+  margin: 22px 0 35px;
 }
 
-.check {
-  font-size: 31px;
-  color: #00855e;
-  font-weight: normal;
+.munaf-agency {
+  border: 1px solid #10333b;
+  border-radius: 22px;
+  padding: 19px 8px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #85858d;
 }
 
-.plus {
-  font-size: 37px;
-  line-height: 29px;
-  color: #00855e;
+.munaf-agency strong {
+  color: #00cfff;
+  font-weight: 800;
 }
 
-.bottom-text {
-  font-size: 20px;
-  line-height: 1.55;
-  color: #91a59b;
-  margin: 0 0 27px;
+.munaf-footer {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #45464e;
 }
 
-.powered {
-  background: #eef5f0;
-  border: 1px solid #e0eae3;
-  border-radius: 21px;
-  padding: 20px 8px;
-  font-size: 17px;
-  font-weight: bold;
-  margin-bottom: 22px;
-}
-
-.powered span {
-  color: #e87920;
-}
-
-.copyright {
-  font-size: 16px;
-  font-weight: bold;
-  color: #91a59b;
-  margin-bottom: 20px;
-}
-
-.disclaimer {
-  background: #eef5f0;
-  border: 1px solid #e0eae3;
-  border-radius: 20px;
-  padding: 19px 15px;
-  color: #91a59b;
-  font-size: 15px;
-  line-height: 1.65;
+.munaf-footer p {
+  margin: 5px 0 0;
 }
 
 @media (max-width: 480px) {
-  .page {
-    padding: 35px 15px 50px;
+  .munaf-page {
+    padding: 25px 8px;
   }
 
-  .card {
-    padding: 28px 20px;
-    border-radius: 35px;
+  .munaf-card {
+    padding: 26px 17px 30px;
+    border-radius: 48px;
   }
 
-  .topbar {
-    font-size: 18px;
-    margin-bottom: 27px;
+  .munaf-profile {
+    width: 190px;
+    height: 190px;
   }
 
-  .profile {
-    gap: 14px;
+  .munaf-card h1 {
+    font-size: 27px;
   }
 
-  .avatar {
-    width: 90px;
-    height: 90px;
-    border-radius: 23px;
+  .munaf-features {
+    padding: 0 10px;
   }
 
-  .profile h1 {
-    font-size: 23px;
+  .munaf-feature {
+    gap: 18px;
+    padding: 17px 0;
   }
 
-  .subtitle {
-    font-size: 16px;
-  }
-
-  .description {
-    font-size: 20px;
-  }
-
-  .features,
-  .benefits {
-    gap: 10px;
-  }
-
-  .feature strong {
-    font-size: 19px;
-  }
-
-  .feature span {
-    font-size: 12px;
-  }
-
-  .join-btn {
-    font-size: 21px;
-    min-height: 78px;
-    gap: 10px;
-    border-radius: 23px;
-  }
-
-  .benefit {
-    font-size: 13px;
-    min-height: 100px;
-  }
-
-  .bottom-text {
+  .munaf-feature p {
     font-size: 18px;
   }
-}
 
-@media (max-width: 350px) {
-  .card {
-    padding: 24px 13px;
-  }
-
-  .profile h1 {
-    font-size: 19px;
-  }
-
-  .avatar {
-    width: 76px;
-    height: 76px;
-  }
-
-  .join-btn {
+  .munaf-description {
     font-size: 17px;
+  }
+
+  .munaf-button {
+    font-size: 22px;
+    padding: 23px 8px;
+  }
+
+  .munaf-hindi {
+    font-size: 21px;
+  }
+
+  .munaf-agency {
+    font-size: 15px;
   }
 }
 </style>
-</head>
-
-<body>
-<div class="page">
-
-  <div class="topbar">
-    <div><span class="dot">●</span> King Of Nifty</div>
-    <div class="live">🟠 Live</div>
-  </div>
-
-  <main class="card">
-
-    <div class="profile">
-      <div class="avatar">
-        <!-- Yahan apni profile photo ka URL dalein -->
-        <img src="YOUR_IMAGE_URL" alt="King Of Nifty">
-        <div class="verified">✓</div>
-      </div>
-
-      <div>
-        <h1>King Of Nifty<br>(Dr. Vikas Laddha)™</h1>
-        <div class="subtitle">Official Telegram Channel</div>
-      </div>
-    </div>
-
-    <p class="description">
-      Daily stock market sessions — updates, chart reading &amp; trading psychology, explained simply.
-    </p>
-
-    <div class="features">
-      <div class="feature">
-        <strong>Free</strong>
-        <span>TO JOIN</span>
-      </div>
-      <div class="feature">
-        <strong>100%</strong>
-        <span>VERIFIED</span>
-      </div>
-      <div class="feature">
-        <strong>Anytime</strong>
-        <span>LEAVE</span>
-      </div>
-    </div>
-
-    <!-- Apna Telegram channel link yahan dalein -->
-    <a class="join-btn"
-       href="YOUR_TELEGRAM_LINK"
-       target="_blank"
-       rel="noopener noreferrer">
-      <svg class="telegram-icon" viewBox="0 0 24 24"
-           aria-hidden="true">
-        <path d="M21.8 3.2 18.5 20c-.25 1.18-.9 1.47-1.83.92l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1.02.5l.36-5.14 9.35-8.44c.41-.36-.09-.56-.63-.2L5.68 13.55.7 12c-1.08-.34-1.1-1.08.23-1.6L20.4 2.84c.9-.33 1.69.22 1.4.36Z"/>
-      </svg>
-      <span>Join Telegram Channel</span>
-      <span class="arrow">→</span>
-    </a>
-
-    <div class="direct">♙ Direct link · opens in Telegram</div>
-
-    <div class="benefits">
-      <div class="benefit">
-        <span class="check">✓</span>
-        <span>Free to join</span>
-      </div>
-      <div class="benefit">
-        <span class="plus">＋</span>
-        <span>Daily sessions</span>
-      </div>
-      <div class="benefit">
-        <span class="check">✓</span>
-        <span>Leave anytime</span>
-      </div>
-    </div>
-
-    <p class="bottom-text">
-      Official stock market education channel by King Of Nifty
-      (Dr. Vikas Laddha)™ — free to join.
-    </p>
-
-    <div class="powered">
-      🔥 Powered by <span> ADBUILDAGENCY</span>
-    </div>
-
-    <div class="copyright">
-      © 2026 King Of Nifty · All rights reserved
-    </div>
-
-    <div class="disclaimer">
-      Educational content only. Not investment, trading or financial
-      advice. No profit or return is promised or implied.
-      Decisions are your own.
-    </div>
-
-  </main>
-</div>
-</body>
-</html>
